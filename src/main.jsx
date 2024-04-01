@@ -19,9 +19,3 @@ const MyComponent = () => {
 const MyComponent2 = () => {
   return <div>hello world</div>;
 }
-root.render(
- <>
- <MyComponent/>
- <MyComponent2/>
- </> 
-);
