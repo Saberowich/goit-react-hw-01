@@ -1,21 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-// import App from './App.jsx'
-// import './index.css'
+import App from './components/App';
+import './index.css'
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-// )
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-
-const MyComponent = () => {
-  return <p>my first component</p>;
-};
-const MyComponent2 = () => {
-  return <div>hello world</div>;
-}
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
